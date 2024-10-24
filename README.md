@@ -72,6 +72,17 @@ flowchart LR
 ```
 
 
+### Benefits of EDA
+
+Key benefits to adopting an **Event-Driven Architecture** are:
+
+- **Loose Coupling & modularity** - This is the crucial benefit of EDA - add or modify components without affecting the existing system
+- **Separation of Business Logic** - business logic is kept within the domain
+- **Asynchronous Communication** - producer/consumer do not need to wait for each other
+- **Adding New Consumers is easy** - no change is required to the producer
+- **Fault Tolerance and Resilience** - If one component fails or becomes unresponsive, other elements can continue to function independently
+- **Push-Based Communication** - no need to wait for a request. Publish at the time of the event
+- **Lower cost** - easier to develop, test, and deploy
 
 
 

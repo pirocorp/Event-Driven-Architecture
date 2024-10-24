@@ -64,9 +64,9 @@ The **producers and consumers are decoupled**, which allows them to be scaled, u
 title: Shared understanding of domain/naming
 ---
 flowchart LR
-    id1[Policy Renewed]
-    id2[Consumer A]
-    id3[Future Consumer]
+    id1(Policy Renewed)
+    id2(Consumer A)
+    id3(Future Consumer)
     id1 --> id2
     id1 --> id3
 ```

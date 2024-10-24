@@ -59,11 +59,17 @@ Key to **Event-driven architectures** (EDA) are **event producers** and **event 
 
 The **producers and consumers are decoupled**, which allows them to be scaled, updated, and deployed independently.
 
+```mermaid
 ---
-title: Node
+title: Shared understanding of domain/naming
 ---
 flowchart LR
-    id
+    id1[Policy Renewed]
+    id2[Consumer A]
+    id3[Future Consumer]
+    id1 --> id2
+    id1 --> id3
+```
 
 
 

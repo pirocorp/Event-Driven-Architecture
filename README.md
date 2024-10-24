@@ -68,7 +68,7 @@ flowchart LR
     id2(Consumer A)
     id3(Future Consumer)
     id1 --> id2
-    id1 --> id3
+    id1 --> |new requirements/consumers added rapidly| id3
 ```
 
 

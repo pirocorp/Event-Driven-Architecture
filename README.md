@@ -85,15 +85,42 @@ Key benefits to adopting an **Event-Driven Architecture** are:
 - **Lower cost** - easier to develop, test, and deploy
 
 
+### Business events
+
+Each event published outside the domain should be **meaningful to the rest of the business** - we call these "**business events**." Business events are **system-agnostic**. Technical messages shared between systems can also be events, but we don't publish these outside of our domain. Examples of business events:
+
+- **New order placed** — In a fictive example of a web-based store, the application could publish this when someone clicks "buy."
+- **Payment received** — This event is published when the system confirms the payment for the order.
+- **Order shipped** — the logistics service publishes this when the parcel has been posted.
 
 
+### Topics
+
+Topic-based communication is one of the critical components in an **event-driven architecture**.
+
+**Topics** are core components of **publish/subscribe** communication. They reduce complexity by replacing all point-to-point connections with a **single connection** to the topic.
+
+**Any number of consumers** can connect to the broker and establish a **topic subscription** for a given topic.
+
+Conceptually, all consumers subscribing to a topic consume data from their virtual queue.
 
 
-
-
-
-
-
+```mermaid
+---
+title: Topics
+---
+flowchart TD
+    id1(Producer)
+    id2(Topic A)
+    id3(Topic B)
+    id4(Consumer 1)
+    id5(Consumer 2)
+    id1 --> |publish| id2
+    id1 --> |publish| id3
+    id2 --> |subscribe| id4
+    id2 --> |subscribe| id5
+    id3 --> |subscribe| id5
+```
 
 
 

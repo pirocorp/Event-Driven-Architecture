@@ -123,8 +123,16 @@ flowchart TD
 ```
 
 
+### Design Principles
 
-
+- **Interface first** - we establish the **who**, **how**, and **what** before building. The topic itself becomes the interface between the producer and the consumer.
+- **Use business events** - Each event should convey something relevant and well-understood by the business and other domains. Avoid "technical events."
+    - A "batch job completion" event is technical (so don't use it) - but it could become a business event, for example, if we make it an "end of business day" notification instead.
+    - Business events should be **system agnostic**.
+- **Completely de-couple interactions** - the producer should publish generic business events and not target a specific consumer.
+    - The producer and consumer **interact via events only** and should not "know" about each other.
+    - The producer owns any events and topics it publishes.
+    - The **consumer owns any consumer-specific processing**.
 
 
 

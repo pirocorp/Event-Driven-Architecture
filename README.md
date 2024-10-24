@@ -8,3 +8,21 @@
 
 ## Why adopt Modern Integration Patterns
 
+- Well-defined boundaries and ownership of data and applications
+- Higher flexibility and quicker time to market for making new changes or releasing new applications
+- Reduce the dependency on other teams when building and releasing new features
+- Adopt new trends for Data and Analytics
+- Readiness to support new transformation initiatives (like Cloud adoption containerization)
+- Better interfaces for internal and external communication
+- Scalability and Resilience by design
+- Support for Real-time data processing, insights, and analytics
+- Agility and Flexibility for development teams
+- Readiness for Innovation. Enables transformation for future trends and quicker adoption of newer technologies
+
+
+
+
+
+
+
+

@@ -135,4 +135,17 @@ flowchart TD
     - The **consumer owns any consumer-specific processing**.
 
 
+### Messages and Patterns
+
+
+
+
+
+
+
+
+
+
+
+
 

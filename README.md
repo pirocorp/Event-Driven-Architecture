@@ -6,6 +6,7 @@
 
 **Integration Pattern** — An integration pattern is a standardized method for implementing integrations. Common patterns are **point-to-point**, **publish/subscribe**, and **request/response**. Integration patterns make it easier to connect our estate by providing best-practice designs for solving different use cases. Over time, these patterns have evolved, and more "modern" patterns come with additional benefits to "older" patterns.
 
+
 ## Why adopt Modern Integration Patterns
 
 - Well-defined boundaries and ownership of data and applications
@@ -20,8 +21,21 @@
 - Readiness for Innovation. Enables transformation for future trends and quicker adoption of newer technologies
 
 
+## Evolution of Modern Integration Patterns
+
+![image](https://github.com/user-attachments/assets/11d40fc6-8fb8-4bd3-8a1b-fcc7e7c3248c)
 
 
+### Typical Integration Methods
+
+| **Method**       | **Within Domain** | **Between Domains** | **Pros**                      | **Cons**                                                              |
+|------------------|-------------------|---------------------|-------------------------------|-----------------------------------------------------------------------|
+| File             | Option            | Migrate             | Simple, established           | Limited interface re-use                                              |
+| Direct DB Access | Do not use        | Do not use          | Quick time to market          | Very tightly coupled                                                  |
+| DB Replication   | Option            | Do not use          | Simple                        | Tightly coupled                                                       |
+| ΑΡΙ              | Option            | Strategic           | De-coupled, request/response  | More suitable for 1:1 integrations than 1:M                           |
+| Message (MQ)     | Strategic         | Migrate             | Fast, established             | Tightly coupled                                                       |
+| Event (Kafka)    | Option            | Strategic           | De-coupled, publish/subscribe | More Suitable for 1:M type of integrations for large scale operations |
 
 
 

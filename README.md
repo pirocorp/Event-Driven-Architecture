@@ -38,5 +38,7 @@
 | Event (Kafka)    | Option            | Strategic           | De-coupled, publish/subscribe | More Suitable for 1:M type of integrations for large scale operations |
 
 
+## Event-Driven Architecture
+
 
 

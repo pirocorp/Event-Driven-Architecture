@@ -59,6 +59,11 @@ Key to **Event-driven architectures** (EDA) are **event producers** and **event 
 
 The **producers and consumers are decoupled**, which allows them to be scaled, updated, and deployed independently.
 
+---
+title: Node
+---
+flowchart LR
+    id
 
 
 

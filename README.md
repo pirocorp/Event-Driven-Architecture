@@ -55,9 +55,9 @@ Decoupled systems that trigger/execute in response to events
 
 An event-driven architecture uses **events** to **trigger** and **communicate** between **decoupled** services & applications. An event is a **state change** or an **update**, for example, an item being placed in a shopping cart on an e-commerce website.
 
+Key to **Event-driven architectures** (EDA) are **event producers** and **event consumers**.
 
-
-
+The **producers and consumers are decoupled**, which allows them to be scaled, updated, and deployed independently.
 
 
 

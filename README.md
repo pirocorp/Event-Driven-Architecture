@@ -46,7 +46,7 @@ Modern applications typically communicate with other applications and services e
 
 Communication is **synchronous** when the **sender waits for the receiver** and vice versa before continuing. **Request/response** patterns are typically synchronous.
 
-**Asynchronous** communication is when messages or information are **sent and received at different times**, eliminating the need for an immediate response. Communication, such as **text messaging** or **emails**, is asynchronous, as messages and replies are sent at different times. Publish/Subscribe patterns are asynchronous.
+**Asynchronous** communication is when messages or information are **sent and received at different times**, eliminating the need for an immediate response. Publish/Subscribe patterns are asynchronous.
 
 
 

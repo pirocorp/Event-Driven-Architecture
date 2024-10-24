@@ -49,6 +49,29 @@ Communication is **synchronous** when the **sender waits for the receiver** and 
 **Asynchronous** communication occurs when messages or information are **sent and received at different times**, eliminating the need for an immediate response. **Publish/Subscribe patterns are asynchronous**.
 
 
+### Events & Event-Driven Architecture
+
+Decoupled systems that trigger/execute in response to events
+
+An event-driven architecture uses **events** to **trigger** and **communicate** between **decoupled** services & applications. An event is a **state change** or an **update**, for example, an item being placed in a shopping cart on an e-commerce website.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
